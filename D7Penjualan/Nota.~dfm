@@ -1238,12 +1238,12 @@ object NotaFrm: TNotaFrm
               ShowText = True
               Spacing = 4
               Transparent = False
-              Caption = 'Ba&tal'
+              Caption = 'H&apus'
               Enabled = False
               DisabledTextColors.ShadeColor = clGray
               DisabledTextColors.HighlightColor = clBtnHighlight
               Index = 2
-              Style = nbsCancel
+              Style = nbsDelete
             end
             object wwDBNavigatorInputButton1: TwwNavButton
               Left = 150
@@ -4912,7 +4912,6 @@ object NotaFrm: TNotaFrm
       414E47414E32010000000000}
     Session = DMFrm.OS
     BeforeInsert = QMasterBeforeInsert
-    BeforeEdit = QMasterBeforeDelete
     BeforePost = QMasterBeforePost
     AfterPost = QMasterAfterPost
     BeforeDelete = QMasterBeforeDelete
@@ -12189,8 +12188,8 @@ object NotaFrm: TNotaFrm
       0300000004000000050000003A4157414C0C0000000000000000000000060000
       003A414B4849520C0000000000000000000000040000003A4A4E530500000000
       00000000000000050000003A4A4E5331050000000000000000000000}
-    Left = 192
-    Top = 525
+    Left = 176
+    Top = 493
   end
   object ppDBPipeline2: TppDBPipeline
     DataSource = dsQDetail

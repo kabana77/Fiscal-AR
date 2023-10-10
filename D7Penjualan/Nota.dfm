@@ -1238,12 +1238,12 @@ object NotaFrm: TNotaFrm
               ShowText = True
               Spacing = 4
               Transparent = False
-              Caption = 'Ba&tal'
+              Caption = 'H&apus'
               Enabled = False
               DisabledTextColors.ShadeColor = clGray
               DisabledTextColors.HighlightColor = clBtnHighlight
               Index = 2
-              Style = nbsCancel
+              Style = nbsDelete
             end
             object wwDBNavigatorInputButton1: TwwNavButton
               Left = 150
@@ -6636,7 +6636,7 @@ object NotaFrm: TNotaFrm
     DataPipeline = ppDBQDetail
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -8888,7 +8888,7 @@ object NotaFrm: TNotaFrm
     DataPipeline = ppDBDetail2
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -12188,8 +12188,8 @@ object NotaFrm: TNotaFrm
       0300000004000000050000003A4157414C0C0000000000000000000000060000
       003A414B4849520C0000000000000000000000040000003A4A4E530500000000
       00000000000000050000003A4A4E5331050000000000000000000000}
-    Left = 192
-    Top = 525
+    Left = 176
+    Top = 493
   end
   object ppDBPipeline2: TppDBPipeline
     DataSource = dsQDetail

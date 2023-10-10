@@ -877,12 +877,12 @@ object SPBFrm: TSPBFrm
                 ShowText = True
                 Spacing = 4
                 Transparent = False
-                Caption = 'Ba&tal'
+                Caption = 'H&apus'
                 Enabled = False
                 DisabledTextColors.ShadeColor = clGray
                 DisabledTextColors.HighlightColor = clBtnHighlight
                 Index = 2
-                Style = nbsCancel
+                Style = nbsDelete
               end
               object wwDBNavigatorInputButton1: TwwNavButton
                 Left = 150
@@ -6486,7 +6486,7 @@ object SPBFrm: TSPBFrm
     DataPipeline = ppDBQDetail
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -9211,7 +9211,7 @@ object SPBFrm: TSPBFrm
     DataPipeline = ppDBQDetail
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -11310,7 +11310,7 @@ object SPBFrm: TSPBFrm
     DataPipeline = ppDBQDetail
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -13361,7 +13361,7 @@ object SPBFrm: TSPBFrm
     DataPipeline = ppDBQDetail
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -17489,7 +17489,7 @@ object SPBFrm: TSPBFrm
     DataPipeline = ppDBDetailPackingList
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
-    PrinterSetup.PaperName = '5"x7" 13x18cm'
+    PrinterSetup.PaperName = 'Custom'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
