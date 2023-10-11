@@ -1890,8 +1890,8 @@ end;
 
 procedure TSPBFrm.QMasterAfterPost(DataSet: TDataSet);
 begin
-  PageControl1.Pages[1].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');
-  PageControl1.Pages[2].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');
+{  PageControl1.Pages[1].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');
+  PageControl1.Pages[2].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');}
 end;
 
 procedure TSPBFrm.QMasterBeforeInsert(DataSet: TDataSet);
