@@ -1,6 +1,6 @@
 object Nota_wasteFrm: TNota_wasteFrm
-  Left = 215
-  Top = 128
+  Left = 412
+  Top = 189
   Width = 1274
   Height = 730
   Caption = 'Order Marketing'
@@ -98,7 +98,7 @@ object Nota_wasteFrm: TNota_wasteFrm
       Top = 76
       Width = 904
       Height = 602
-      ActivePage = TabSheet2
+      ActivePage = TabSheet1
       Align = alClient
       Style = tsFlatButtons
       TabOrder = 1
@@ -1152,7 +1152,7 @@ object Nota_wasteFrm: TNota_wasteFrm
             object wwDBNavigatorInputButton: TwwNavButton
               Left = 0
               Top = 0
-              Width = 50
+              Width = 42
               Height = 108
               Hint = 'Move to prior record'
               ImageIndex = -1
@@ -1168,9 +1168,9 @@ object Nota_wasteFrm: TNota_wasteFrm
               Style = nbsPrior
             end
             object wwDBNavigatorInputNext: TwwNavButton
-              Left = 50
+              Left = 42
               Top = 0
-              Width = 50
+              Width = 42
               Height = 108
               Hint = 'Move to next record'
               ImageIndex = -1
@@ -1186,9 +1186,9 @@ object Nota_wasteFrm: TNota_wasteFrm
               Style = nbsNext
             end
             object wwDBNavigatorInputCancel: TwwNavButton
-              Left = 100
+              Left = 84
               Top = 0
-              Width = 50
+              Width = 42
               Height = 108
               Hint = 'Cancel changes made to current record'
               ImageIndex = -1
@@ -1204,9 +1204,9 @@ object Nota_wasteFrm: TNota_wasteFrm
               Style = nbsCancel
             end
             object wwDBNavigatorInputButton1: TwwNavButton
-              Left = 150
+              Left = 126
               Top = 0
-              Width = 50
+              Width = 41
               Height = 108
               Hint = 'Insert new record'
               ImageIndex = -1
@@ -1222,9 +1222,9 @@ object Nota_wasteFrm: TNota_wasteFrm
               Style = nbsInsert
             end
             object wwDBNavigatorInputButton2: TwwNavButton
-              Left = 200
+              Left = 167
               Top = 0
-              Width = 49
+              Width = 41
               Height = 108
               Hint = 'Post changes of current record'
               ImageIndex = -1
@@ -1239,6 +1239,24 @@ object Nota_wasteFrm: TNota_wasteFrm
               OnClick = wwDBNavigatorInputButton2Click
               Index = 4
               Style = nbsPost
+            end
+            object wwDBNavigatorInputButton3: TwwNavButton
+              Left = 208
+              Top = 0
+              Width = 41
+              Height = 108
+              Hint = 'Delete current record'
+              ImageIndex = -1
+              NumGlyphs = 2
+              ShowText = True
+              Spacing = 4
+              Transparent = False
+              Caption = '&Hapus'
+              Enabled = False
+              DisabledTextColors.ShadeColor = clGray
+              DisabledTextColors.HighlightColor = clBtnHighlight
+              Index = 5
+              Style = nbsDelete
             end
           end
           object wwDBEdit1: TwwDBEdit
@@ -4688,7 +4706,7 @@ object Nota_wasteFrm: TNota_wasteFrm
     PrinterSetup.mmMarginTop = 6350
     PrinterSetup.mmPaperHeight = 140000
     PrinterSetup.mmPaperWidth = 210000
-    PrinterSetup.PaperSize = 256
+    PrinterSetup.PaperSize = 147
     Template.FileName = 'D:\_Proyek\iPismaTex\Aplikasi\Report\OM.rtm'
     Units = utMillimeters
     DeviceType = 'Screen'
@@ -6603,7 +6621,7 @@ object Nota_wasteFrm: TNota_wasteFrm
     PrinterSetup.mmMarginTop = 6350
     PrinterSetup.mmPaperHeight = 139700
     PrinterSetup.mmPaperWidth = 210000
-    PrinterSetup.PaperSize = 256
+    PrinterSetup.PaperSize = 147
     Template.FileName = 'D:\_Proyek\iPismaTex\Aplikasi\Report\OM2.rtm'
     Units = utMillimeters
     DeviceType = 'Screen'

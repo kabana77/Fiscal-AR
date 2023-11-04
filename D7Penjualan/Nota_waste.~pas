@@ -670,6 +670,7 @@ type
     QSuratJalanNO_NOTA: TStringField;
     QSuratJalanTANGGAL: TDateTimeField;
     ppLabel44: TppLabel;
+    wwDBNavigatorInputButton3: TwwNavButton;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure BtnExportClick(Sender: TObject);
