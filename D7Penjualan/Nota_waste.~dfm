@@ -1248,9 +1248,10 @@ object Nota_wasteFrm: TNota_wasteFrm
               Hint = 'Delete current record'
               ImageIndex = -1
               NumGlyphs = 2
+              ShowText = True
               Spacing = 4
               Transparent = False
-              Caption = 'wwDBNavigatorInputButton3'
+              Caption = '&Hapus'
               Enabled = False
               DisabledTextColors.ShadeColor = clGray
               DisabledTextColors.HighlightColor = clBtnHighlight
